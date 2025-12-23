@@ -9,8 +9,7 @@ import AboutDirectorate from "@/components/AboutDirectorate";
 import BureauFooter from "@/components/BureauFooter";
 
 const Index = () => {
-  // Replace this URL with your actual seal image when ready
-  const sealImageUrl = undefined;
+  const sealImageUrl = "https://psd-evidence-archive-8492.s3.us-east-1.amazonaws.com/department-seal.png";
 
   return (
     <div className="min-h-screen flex flex-col bg-background scanlines pattern-grid">
